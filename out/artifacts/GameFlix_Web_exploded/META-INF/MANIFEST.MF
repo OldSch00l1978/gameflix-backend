@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: damienwalker
+Build-Jdk: Oracle OpenJDK 23.0.1 - aarch64
+Implementation-Title: GameFlix
+Implementation-Version: 1.0.0
+Implementation-Vendor-Id: com.example
+Main-Class: ${start-class}
+

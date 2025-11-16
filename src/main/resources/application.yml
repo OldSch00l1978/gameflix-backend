@@ -1,0 +1,27 @@
+# application.yml
+spring:
+  profiles:
+    active: default
+
+---
+# Default profile
+spring:
+  config:
+    activate:
+      on-profile: default
+server:
+  port: 8080
+app:
+  name: GameFlix
+  environment: Local
+
+---
+# Docker profile
+spring:
+  config:
+    activate:
+      on-profile: docker
+server:
+  port: 8081
+app:
+  name: GameFlix
